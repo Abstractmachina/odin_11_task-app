@@ -40,12 +40,7 @@ class App extends Component {
       tasks: this.state.tasks.concat(this.state.task),
       count: this.state.count +=1,
     });
-    console.log(this.state.count);
-    console.log(this.state.task);
   }
-
-
-
 
   render(){
     const {task, tasks } = this.state;
